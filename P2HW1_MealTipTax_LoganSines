@@ -1,0 +1,29 @@
+# This program will calculate the total of a meal purchased at a restaurant.
+# 9-18-19
+# CTI-110-0002 P2HW1
+# Logan Sines
+
+# First, I will ask the user for the price of the food.
+
+cost = float(input("Please enter the price of the food: "))
+
+# Now, I will ask the user for the tip.
+
+tip = float(input("Please enter the what percentage you'd like to tip: "))
+
+# Now, I will ask the user for the sales tax.
+
+tax = float(input("Please enter the sales tax: "))
+
+# Now, I will enter the calculations
+
+tipCalc = float(cost  * tip)
+
+taxCalc = float(cost * tax)
+
+total = float(cost + tipCalc + taxCalc)
+
+print ("The final charge is:", total)
+
+input()
+
